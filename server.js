@@ -4,7 +4,7 @@ const app= express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("🚀 Express test server is running!");
+  res.send("Express test server is running!");
 });
 
 
