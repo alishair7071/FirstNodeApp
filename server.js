@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 
-const PORT= 8000;
+const PORT= 5000;
 // Start server
 app.listen(PORT, () => {
   console.log(`✅ Server running at ${PORT}`);
